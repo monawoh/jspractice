@@ -10,3 +10,5 @@ const generateMessages = (namesAndDiscounts) => {
     `Hi ${namesAndDiscounts[0]}! ${namesAndDiscounts[1]} off our best candies for you today!`);
 };
 console.log(generateMessages(namesAndDiscounts));
+
+// chekc with dean about that
