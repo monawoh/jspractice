@@ -12,3 +12,6 @@ const searchCandies = (searchPrefix, maxPrice) => {
 }
 
 console.log(searchCandies('MA', 10));
+
+module.exports = searchCandies;
+// exports means exporting the function to another place

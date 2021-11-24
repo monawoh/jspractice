@@ -9,6 +9,10 @@ const fizzbuzz = (num) => {
     return num;
   }
 };
-for (let number = 1; number <= 50; number++) {
-  console.log(`Fizzbuzz result for ${number} is ${fizzbuzz(number)}`);
-}
+// for (let number = 1; number <= 50; number++) {
+//   console.log(`Fizzbuzz result for ${number} is ${fizzbuzz(number)}`);
+// }
+
+// actual fuile gest the module and the test gets the require
+
+module.exports = fizzbuzz;
