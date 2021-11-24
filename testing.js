@@ -11,4 +11,4 @@ const searchCandies = (searchPrefix, maxPrice) => {
     }).map(candy => candy[0]);
 }
 
-console.log(searchCandies('MA', 10));
+console.log(searchCandies('S', 5));
