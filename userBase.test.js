@@ -1,5 +1,6 @@
 const UserBase = require('./userBase')
 const User = require('./user')
+
 describe('Userbase', () => {
     it('creating a userbase class with count, getnames and introductions', () => {
     const users = [
